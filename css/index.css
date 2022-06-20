@@ -1,0 +1,303 @@
+/* Definition du style generale de la page  */
+*{
+    padding:0;
+    margin: 0;
+    font-family: sans-serif;
+}
+ /* Design des differents partie de la page  */
+ /* 1.definition du header  */
+ header{
+    height: 80px;
+    width: 100%;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.753);
+    background-color: #fff;
+ }
+ .corps_header{
+   width: 90%;
+   height: 100%;
+   display: flex;
+   margin: auto;
+ }
+ .corps{
+    background-color: #bfbec0;
+ }
+ .corps_header div{
+    margin-left: 25px;
+    padding-top: 12px;
+ }
+
+ /* definition du style a gauche */
+ .left{
+    display: flex;
+    padding: auto;
+    width: 35%;
+ }
+ .left .logo .titre{
+    position: absolute;
+    top:30px;
+    font-size: 18px;
+ }
+ .left .logo img{
+height: 50px;
+width: 50px;
+ }
+  .logut{
+    margin-left:100px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color:#fff;
+    background-color: #dd3546;
+  }
+/* definition du style au centre  */
+.center{
+    width: 25%;
+    height: 100%;
+}
+.center .link a{
+    font-size: 25px;
+    color:#fff;
+    text-shadow: 0px 1px 6px black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.center .link a span {
+    text-transform: uppercase;
+}
+/* definition du style de droite  */
+.right{
+    width: 35%;
+}
+.right input{
+    width: 25%;
+    background-color: #fff;
+    color: #505152;
+    border: 2px solid #505152;
+    height: 50px;
+    font-size: 18px;
+    margin-left: 8px;
+}
+.right .long{
+    width: 31%;
+    background-color: #fff;
+    color: #505152;
+    border: 2px solid #505152;
+    height: 50px;
+    font-size: 18px;
+}
+.right input:hover{
+    border-color: #3096aa;
+    color:#3096aa;
+    transform: scale(1.2);
+    box-shadow: 0px 1px 12px #000;
+    margin:0px 18px;
+}
+/* disign de la premiere division  */
+.principal{
+    width: 100%;
+    height: 400px;
+    box-shadow: 0px 1px 4px;
+    display: flex;
+    background-color: #e9ebf0;
+}
+.container2{
+    width: 88%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+.ecrit p{
+    font-size: 18px ;
+}
+.ecrit{
+    width: 45%;
+    height: 100%;
+    padding-top: 6%;
+}
+.ecrit h2{
+    color: #52a46a;
+    padding-top: 25px;
+    font-size: 21px;
+}
+.ecrit button{
+    height: 50px;
+    width: 250px;
+    border:2px solid #1876db;
+    color: #1876db;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+.ecrit button span{
+    color:#c86e77;
+}
+.ecrit button:hover{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.658);
+    transform: scale(1.2);
+}
+.image{
+    width: 55%;
+    height: 100%;
+}
+.image img{
+    width: 100%;
+    height: 99%;
+    margin-top: 0.5%;
+}
+/* design du second container  */
+.service{
+    width: 100%;
+    height: 400px;
+    margin-top: 15px;
+    background-color:#eceaec;
+    box-shadow: 0px 1px 2px;
+}
+.service .titre{
+    width: 100%;
+    text-align: center;
+    padding-top: 34px;
+    color: #289cb3;
+}
+.menu{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 6%;
+}
+.menu1{
+    width: 33%;
+    margin-left: 50px;
+}
+.menu_num{
+    width: 100%;
+}
+.menu .num{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #645c5a;
+    font-size: 23px;
+    border: none;
+    color: white;
+    margin-left: 45%;
+}
+.menu1 h3{
+    width: 70%;
+    border-bottom: 2px dashed #645c5a;
+    text-align: center;
+    margin-left: 50px;
+}
+.text12{
+    text-align: center;
+    width: 92%;
+    display: block;
+    margin: auto;
+    font-size: 17px;
+}
+.menu1 p{
+    width: 100%;
+    text-align: center;
+    padding-top: 23px;
+    font-size: 17px;
+}
+/* design de la troisieme partie  */
+.outils{
+    width: 100%;
+    height: 500px;
+    background-color: #fffeff;
+}
+.titres{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    color: #d5374e;
+}
+.outils1{
+    height: 40%;
+    width: 80%;
+    display: flex;
+    position: relative;
+    top: 90px;
+    margin: auto;
+}
+.presentation{
+    width: 15%;
+    margin-left: 7%;
+}
+.outils1 h4{
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+}
+/* design de la troisieme partie */
+.presentation3{
+    width: 100%;
+
+}
+.partie1{
+    width: 45%;
+    height: 200px;
+    margin: auto;
+    text-align: justify;
+    margin-top: 40px;
+    background-color: #e9e7e9;
+    box-shadow:0px 2px 3px #000;
+}
+.partie1 h2{
+    width: 100%;
+    padding-top: 12px;
+    text-align: center;
+    margin-top: 23px;
+}
+.partie1 p{
+    width: 95%;
+    height: 45%;
+    margin:auto;
+    padding-top: 34px;
+}
+.partie2{
+    width: 45%;
+    height: 250px;
+    margin: auto;
+    margin-top: 45px;
+}
+.partie2 h2{
+    margin-left: 35%;
+    padding-bottom: 16px;
+}
+.partie2 ul{
+    padding-top: 30px;
+    width: 100%;
+}
+.partie2 li{
+    margin-left: 10%;
+    font-size: 16px;
+}
+/* design de l'avant footer  */
+.preFooter{
+    width: 100%;
+    height: 80px;
+    border-top: 3px solid #f99761;
+    background-color: #232123;
+    color: #707576;
+}
+.preFooter span{
+    margin-left: 10%;
+    position:relative;
+    top: 34%;
+}
+/* design du footer et fin du css */
+footer{
+    height: 40px;
+    background-color: #121113;
+    color: #707576;
+}
+footer span{
+    margin-left: 10%;
+    position:relative;
+    top: 34%;
+}
